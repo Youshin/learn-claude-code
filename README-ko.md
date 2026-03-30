@@ -292,32 +292,32 @@ s08  Background Tasks        [6]     s10  Team Protocols          [12]
 ```text
 learn-claude-code/
 |
-|-- agents/                        # Python reference implementation (s01-s12 + s_full capstone)
-|-- docs/{en,zh,ja}/               # mental-model-first documentation (3 languages)
-|-- web/                           # interactive learning platform (Next.js)
-|-- skills/                        # Skill files for s05
-+-- .github/workflows/ci.yml       # CI: typecheck + build
+|-- agents/                        # Python 참조 구현 (s01-s12 + s_full capstone)
+|-- docs/{en,zh,ja,ko}/            # 멘탈 모델 우선 문서 (4개 언어)
+|-- web/                           # 인터랙티브 학습 플랫폼 (Next.js)
+|-- skills/                        # s05용 스킬 파일
++-- .github/workflows/ci.yml       # CI: 타입 체크 + 빌드
 ```
 
 ## 문서
 
-mental-model-first 방식입니다. 문제, 해결책, ASCII 다이어그램, 최소 코드 중심입니다.  
-[English](./docs/en/) | [中文](./docs/zh/) | [日本語](./docs/ja/)
+멘탈 모델 우선(mental-model-first) 방식입니다. 문제, 해결책, ASCII 다이어그램, 최소 코드 중심입니다.  
+[English](./docs/en/) | [中文](./docs/zh/) | [日本語](./docs/ja/) | [한국어](./docs/ko/)
 
 | 세션 | 주제 | 모토 |
 |------|------|------|
-| [s01](./docs/en/s01-the-agent-loop.md) | The Agent Loop | *One loop & Bash is all you need* |
-| [s02](./docs/en/s02-tool-use.md) | Tool Use | *Adding a tool means adding one handler* |
-| [s03](./docs/en/s03-todo-write.md) | TodoWrite | *An agent without a plan drifts* |
-| [s04](./docs/en/s04-subagent.md) | Subagents | *Break big tasks down; each subtask gets a clean context* |
-| [s05](./docs/en/s05-skill-loading.md) | Skills | *Load knowledge when you need it, not upfront* |
-| [s06](./docs/en/s06-context-compact.md) | Context Compact | *Context will fill up; you need a way to make room* |
-| [s07](./docs/en/s07-task-system.md) | Tasks | *Break big goals into small tasks, order them, persist to disk* |
-| [s08](./docs/en/s08-background-tasks.md) | Background Tasks | *Run slow operations in the background; the agent keeps thinking* |
-| [s09](./docs/en/s09-agent-teams.md) | Agent Teams | *When the task is too big for one, delegate to teammates* |
-| [s10](./docs/en/s10-team-protocols.md) | Team Protocols | *Teammates need shared communication rules* |
-| [s11](./docs/en/s11-autonomous-agents.md) | Autonomous Agents | *Teammates scan the board and claim tasks themselves* |
-| [s12](./docs/en/s12-worktree-task-isolation.md) | Worktree + Task Isolation | *Each works in its own directory, no interference* |
+| [s01](./docs/ko/s01-the-agent-loop.md) | The Agent Loop | *One loop & Bash is all you need* |
+| [s02](./docs/ko/s02-tool-use.md) | Tool Use | *Adding a tool means adding one handler* |
+| [s03](./docs/ko/s03-todo-write.md) | TodoWrite | *An agent without a plan drifts* |
+| [s04](./docs/ko/s04-subagent.md) | Subagents | *Break big tasks down; each subtask gets a clean context* |
+| [s05](./docs/ko/s05-skill-loading.md) | Skills | *Load knowledge when you need it, not upfront* |
+| [s06](./docs/ko/s06-context-compact.md) | Context Compact | *Context will fill up; you need a way to make room* |
+| [s07](./docs/ko/s07-task-system.md) | Tasks | *Break big goals into small tasks, order them, persist to disk* |
+| [s08](./docs/ko/s08-background-tasks.md) | Background Tasks | *Run slow operations in the background; the agent keeps thinking* |
+| [s09](./docs/ko/s09-agent-teams.md) | Agent Teams | *When the task is too big for one, delegate to teammates* |
+| [s10](./docs/ko/s10-team-protocols.md) | Team Protocols | *Teammates need shared communication rules* |
+| [s11](./docs/ko/s11-autonomous-agents.md) | Autonomous Agents | *Teammates scan the board and claim tasks themselves* |
+| [s12](./docs/ko/s12-worktree-task-isolation.md) | Worktree + Task Isolation | *Each works in its own directory, no interference* |
 
 ## 다음 단계 -- 이해에서 배포까지
 
@@ -339,7 +339,7 @@ GitHub: **[shareAI-lab/Kode-agent-sdk](https://github.com/shareAI-lab/Kode-agent
 
 ---
 
-## Sister Repo: *on-demand session*에서 *always-on assistant*로
+## Sister Repo: *on-demand sessions*에서 *always-on assistant*로
 
 이 저장소가 가르치는 Harness는 **use-and-discard** 방식입니다. terminal을 열고, Agent에게 task를 주고, 끝나면 닫습니다. 다음 session은 빈 상태에서 다시 시작합니다. 이것이 Claude Code 모델입니다.
 
@@ -362,6 +362,12 @@ learn-claude-code                   claw0
  loop, tools, planning,              heartbeat, cron, IM channels,
  teams, worktree isolation)          memory, soul personality)
 ```
+
+## About
+<img width="260" src="https://github.com/user-attachments/assets/fe8b852b-97da-4061-a467-9694906b5edf" /><br>
+
+WeChat으로 스캔하여 팔로우하거나,
+X에서 팔로우하세요: [shareAI-Lab](https://x.com/baicai003)
 
 ## 라이선스
 
