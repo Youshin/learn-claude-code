@@ -1,6 +1,6 @@
 # Learn Claude Code -- 真の Agent のための Harness Engineering
 
-[English](./README.md) | [中文](./README-zh.md) | [日本語](./README-ja.md)
+[English](./README.md) | [中文](./README-zh.md) | [日本語](./README-ja.md) | [한국어](./README-ko.md)
 
 ## モデルこそが Agent である
 
@@ -291,7 +291,7 @@ s08  バックグラウンドタスク   [6]     s10  チームプロトコル  
 learn-claude-code/
 |
 |-- agents/                        # Python リファレンス実装 (s01-s12 + s_full 総括)
-|-- docs/{en,zh,ja}/               # メンタルモデル優先のドキュメント (3言語)
+|-- docs/{en,zh,ja,ko}/            # メンタルモデル優先のドキュメント (4言語)
 |-- web/                           # インタラクティブ学習プラットフォーム (Next.js)
 |-- skills/                        # s05 の Skill ファイル
 +-- .github/workflows/ci.yml      # CI: 型チェック + ビルド
@@ -300,7 +300,7 @@ learn-claude-code/
 ## ドキュメント
 
 メンタルモデル優先: 問題、解決策、ASCII図、最小限のコード。
-[English](./docs/en/) | [中文](./docs/zh/) | [日本語](./docs/ja/)
+[English](./docs/en/) | [中文](./docs/zh/) | [日本語](./docs/ja/) | [한국어](./docs/ko/)
 
 | セッション | トピック | モットー |
 |-----------|---------|---------|
