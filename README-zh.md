@@ -1,6 +1,6 @@
 # Learn Claude Code -- 真正的 Agent Harness 工程
 
-[English](./README.md) | [中文](./README-zh.md) | [日本語](./README-ja.md)
+[English](./README.md) | [中文](./README-zh.md) | [日本語](./README-ja.md) | [한국어](./README-ko.md)
 
 ## 模型就是 Agent
 
@@ -291,7 +291,7 @@ s08  Background Tasks        [6]     s10  Team Protocols          [12]
 learn-claude-code/
 |
 |-- agents/                        # Python 参考实现 (s01-s12 + s_full 总纲)
-|-- docs/{en,zh,ja}/               # 心智模型优先的文档 (3 种语言)
+|-- docs/{en,zh,ja,ko}/            # 心智模型优先的文档 (4 种语言)
 |-- web/                           # 交互式学习平台 (Next.js)
 |-- skills/                        # s05 的 Skill 文件
 +-- .github/workflows/ci.yml      # CI: 类型检查 + 构建
@@ -300,7 +300,7 @@ learn-claude-code/
 ## 文档
 
 心智模型优先: 问题、方案、ASCII 图、最小化代码。
-[English](./docs/en/) | [中文](./docs/zh/) | [日本語](./docs/ja/)
+[English](./docs/en/) | [中文](./docs/zh/) | [日本語](./docs/ja/) | [한국어](./docs/ko/)
 
 | 课程 | 主题 | 格言 |
 |------|------|------|
